@@ -1,0 +1,5 @@
+hypothesis,test_type,statistic,p_value,effect_size,decision
+H1: Activity Difference (Buyers vs Non-Buyers),Parametric (Welch's t-test),26.2174,8.186651252482072e-141,Cohen's d = 0.8313,Reject H0
+H1: Activity Difference (Buyers vs Non-Buyers),Non-Parametric (Mann-Whitney U),336271065.0,0.0,Rank-biserial r = -0.4691,Reject H0
+H2: Category Independence from Purchase Intent,Categorical (Chi-Square Independence),49.4039,4.808934533118317e-10,Cramér's V = 0.0219,Reject H0
+H3: Spend Differences Across Tenure Cohorts,Non-Parametric ANOVA (Kruskal-Wallis),1171.3166,4.485677240527368e-255,Epsilon^2 = 0.0105,Reject H0

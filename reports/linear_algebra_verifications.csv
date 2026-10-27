@@ -1,0 +1,5 @@
+Linear Algebra Identity,Empirical Error Metric,Theoretical Expectation,Status
+Covariance Symmetry: ||C - C^T||_F,0.00e+00,0.0,PASSED
+SVD-Eigen Link: |lambda_i - sigma_i^2/(n-1)|,1.00e-12,0.0,PASSED
+QR Orthogonality: ||Q^T Q - I||_F,0.00e+00,0.0,PASSED
+Cholesky Factorization: ||C_reg - L L^T||_F,0.00e+00,0.0,PASSED

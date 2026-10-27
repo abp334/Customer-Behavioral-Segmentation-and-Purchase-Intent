@@ -1,0 +1,4 @@
+strategy,total_budget,total_revenue,net_profit,roi_pct,budget_Dormant Bouncers,rev_Dormant Bouncers,budget_Recent Window Shoppers,rev_Recent Window Shoppers,budget_Champions,rev_Champions,budget_Active Explorers,rev_Active Explorers
+Lagrange Multiplier Optimal,10000.0,127007.15,117007.15,1170.07,0.0,0.0,372.02,1581.43,6735.12,100129.16,2892.86,25296.56
+Uniform Equal Split,10000.0,109392.61,99392.61,993.93,2500.0,3243.72,2500.0,6263.81,2500.0,76113.06,2500.0,23772.02
+Size-Proportional Allocation,10000.0,88731.48,78731.48,787.31,3597.01,4116.34,3266.61,7254.1,1015.36,55269.58,2121.02,22091.46

@@ -1,0 +1,5 @@
+model,pr_auc,roc_auc,brier_score,f1_score_tau50,fit_time_seconds
+Logistic Regression,0.245,0.7961,0.1749,0.1873,0.26
+LightGBM,0.2407,0.7873,0.156,0.1957,0.93
+XGBoost,0.2357,0.793,0.1612,0.1985,0.41
+Random Forest,0.2168,0.7854,0.133,0.2055,1.07

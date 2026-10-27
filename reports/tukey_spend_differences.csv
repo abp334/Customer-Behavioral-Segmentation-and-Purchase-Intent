@@ -1,0 +1,7 @@
+group1,group2,meandiff,p-adj,lower,upper,reject,group1_name,group2_name
+0,1,-0.0077,0.2299,-0.0182,0.0027,False,Dormant Bouncers,Recent Window Shoppers
+0,2,5.5806,0.0,5.5652,5.596,True,Dormant Bouncers,Champions
+0,3,-0.0068,0.4477,-0.0187,0.005,False,Dormant Bouncers,Active Explorers
+1,2,5.5883,0.0,5.5728,5.6039,True,Recent Window Shoppers,Champions
+1,3,0.0009,0.9977,-0.0112,0.0129,False,Recent Window Shoppers,Active Explorers
+2,3,-5.5874,0.0,-5.604,-5.5709,True,Champions,Active Explorers

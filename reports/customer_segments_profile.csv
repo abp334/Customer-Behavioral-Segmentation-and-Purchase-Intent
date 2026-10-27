@@ -1,0 +1,5 @@
+cluster,customer_count,recency_days,tenure_days,total_sessions,total_events,view_count,cart_count,purchase_count,total_spend,avg_purchase_price,n_unique_products,next_10d_conversion_rate,pct_of_total,persona_name
+0,39911,13.0,14.0,1.0,2.0,2.0,0.0,0.011,1.0,0.99,2.0,1.28,35.97,Dormant Bouncers (Cold / Inactive)
+1,36245,3.0,4.0,1.0,2.0,2.0,0.0,0.01,0.8,0.8,2.0,2.0,32.67,Recent Window Shoppers (Warm Bouncers)
+2,11266,4.0,14.0,4.0,19.0,16.0,1.0,2.062,626.88,294.68,7.0,16.93,10.15,Champions (High-Value Spenders)
+3,23534,4.0,14.0,4.0,20.0,20.0,0.0,0.013,0.36,0.35,13.0,4.9,21.21,Active Explorers (High Engagement)

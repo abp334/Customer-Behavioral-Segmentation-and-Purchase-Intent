@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook source-build='2026.3.0' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences />
+  <datasources>
+    <datasource caption='Customer Segments Mart' inline='true' name='federated.customer_segments' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection name='customer_segments_leaf'>
+            <connection auto-extract='yes' character-set='UTF-8' class='textscan' directory='/Users/aayushpandya/DSC_GP/dashboard' filename='tableau_customer_segments.csv' header='yes' separator=',' text-qualifier='&quot;' />
+          </named-connection>
+        </named-connections>
+        <relation connection='customer_segments_leaf' name='tableau_customer_segments#csv' table='[tableau_customer_segments#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=',' text-qualifier='&quot;'>
+            <column datatype='integer' name='user_id' ordinal='0' />
+            <column datatype='integer' name='cluster' ordinal='1' />
+            <column datatype='string' name='persona_name' ordinal='2' />
+            <column datatype='integer' name='recency_days' ordinal='3' />
+            <column datatype='integer' name='tenure_days' ordinal='4' />
+            <column datatype='integer' name='active_days' ordinal='5' />
+            <column datatype='integer' name='total_sessions' ordinal='6' />
+            <column datatype='integer' name='total_events' ordinal='7' />
+            <column datatype='integer' name='view_count' ordinal='8' />
+            <column datatype='integer' name='cart_count' ordinal='9' />
+            <column datatype='integer' name='purchase_count' ordinal='10' />
+            <column datatype='real' name='total_spend' ordinal='11' />
+            <column datatype='real' name='avg_purchase_price' ordinal='12' />
+            <column datatype='integer' name='n_unique_products' ordinal='13' />
+            <column datatype='integer' name='will_purchase_next_10d' ordinal='14' />
+          </columns>
+        </relation>
+        <column datatype='string' name='[persona_name]' role='dimension' type='nominal' />
+        <column datatype='real' name='[total_spend]' role='measure' type='quantitative' />
+        <column datatype='integer' name='[recency_days]' role='measure' type='quantitative' />
+        <column datatype='integer' name='[total_sessions]' role='measure' type='quantitative' />
+        <column datatype='integer' name='[will_purchase_next_10d]' role='measure' type='quantitative' />
+      </connection>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Conversion by Persona (Q1 &amp; Q3)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='federated.customer_segments' />
+          </datasources>
+          <datasource-dependencies datasource='federated.customer_segments'>
+            <column datatype='string' name='[persona_name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[will_purchase_next_10d]' role='measure' type='quantitative' />
+            <column-instance column='[persona_name]' derivation='None' name='[none:persona_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[will_purchase_next_10d]' derivation='Avg' name='[avg:will_purchase_next_10d:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.customer_segments].[none:persona_name:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.customer_segments].[avg:will_purchase_next_10d:qk]</rows>
+        <cols>[federated.customer_segments].[none:persona_name:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Customer Count by Persona'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='federated.customer_segments' />
+          </datasources>
+          <datasource-dependencies datasource='federated.customer_segments'>
+            <column datatype='string' name='[persona_name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[user_id]' role='measure' type='quantitative' />
+            <column-instance column='[persona_name]' derivation='None' name='[none:persona_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[user_id]' derivation='CountD' name='[ctd:user_id:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.customer_segments].[none:persona_name:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.customer_segments].[ctd:user_id:qk]</rows>
+        <cols>[federated.customer_segments].[none:persona_name:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='RFM Spend vs Recency'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='federated.customer_segments' />
+          </datasources>
+          <datasource-dependencies datasource='federated.customer_segments'>
+            <column datatype='string' name='[persona_name]' role='dimension' type='nominal' />
+            <column datatype='real' name='[total_spend]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[recency_days]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[total_sessions]' role='measure' type='quantitative' />
+            <column-instance column='[persona_name]' derivation='None' name='[none:persona_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[recency_days]' derivation='None' name='[none:recency_days:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_spend]' derivation='None' name='[none:total_spend:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_sessions]' derivation='None' name='[none:total_sessions:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.customer_segments].[none:persona_name:nk]' />
+              <size column='[federated.customer_segments].[none:total_sessions:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.customer_segments].[none:total_spend:qk]</rows>
+        <cols>[federated.customer_segments].[none:recency_days:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='worksheet' name='Conversion by Persona (Q1 &amp; Q3)'>
+      <viewpoints>
+        <viewpoint name='Conversion by Persona (Q1 &amp; Q3)' />
+      </viewpoints>
+      <active id='-1' />
+    </window>
+    <window class='worksheet' name='Customer Count by Persona'>
+      <viewpoints>
+        <viewpoint name='Customer Count by Persona' />
+      </viewpoints>
+    </window>
+    <window class='worksheet' name='RFM Spend vs Recency'>
+      <viewpoints>
+        <viewpoint name='RFM Spend vs Recency' />
+      </viewpoints>
+    </window>
+  </windows>
+</workbook>

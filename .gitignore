@@ -1,0 +1,39 @@
+# Environment & Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# OS & IDE
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Big Data & Raw Datasets (Do NOT upload to GitHub - exceeds 100MB limits)
+data/*
+!data/README.md
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.csv.gz
+.spark_tmp/
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Tableau Temporary & Lock files
+*.twbr
+*.tflr
+.~*

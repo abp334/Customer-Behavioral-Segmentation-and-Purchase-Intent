@@ -1,0 +1,6 @@
+table,rows,type
+dim_date,31,Dimension
+dim_product,93941,Dimension
+dim_user,151133,Dimension
+fact_events,2096110,Fact
+gold_user_features,110956,Feature Mart

@@ -1,0 +1,5 @@
+model,rmse,mae,mape_pct
+"SARIMA(1,1,1)x(1,0,0)7",2976.73,2488.8,3.99
+"ARIMA(1,1,1)",7125.39,6079.88,9.84
+Seasonal Baseline,6664.26,6360.43,10.04
+Holt-Winters,7926.44,7505.01,11.91

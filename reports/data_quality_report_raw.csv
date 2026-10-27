@@ -1,0 +1,11 @@
+column,dtype,non_null,null_count,null_pct,n_unique,top_values,min,max,mean,median
+user_id,int64,2100838,0,0.0,151177,"{512365995: np.int64(4013), 542048657: np.int64(1703), 551725843: np.int64(1340)}",226242984.0,566280351.0,533494889.7654,529479180.0
+event_time,datetime64[ns],2100838,0,0.0,1340899,"{Timestamp('2019-10-22 01:05:16'): np.int64(15), Timestamp('2019-10-04 08:46:03'): np.int64(14), Timestamp('2019-10-29 23:59:30'): np.int64(12)}",,,,
+event_type,object,2100838,0,0.0,3,"{'view': np.int64(2017907), 'cart': np.int64(46256), 'purchase': np.int64(36675)}",,,,
+product_id,int64,2100838,0,0.0,94384,"{1004856: np.int64(25637), 1004767: np.int64(21496), 1005115: np.int64(17126)}",1000978.0,60500010.0,10510525.8103,4900420.0
+category_id,int64,2100838,0,0.0,608,"{2053013555631882655: np.int64(570849), 2053013553559896355: np.int64(92515), 2053013558920217191: np.int64(56401)}",2.0530135522261076e+18,2.1754195950939676e+18,2.0573991007825236e+18,2.0530135556318828e+18
+category_code,object,1434983,665855,31.69,126,"{'electronics.smartphone': np.int64(570849), 'electronics.clocks': np.int64(65751), 'computers.notebook': np.int64(56769)}",,,,
+brand,object,1801572,299266,14.25,2855,"{'samsung': np.int64(263685), 'apple': np.int64(204549), 'xiaomi': np.int64(153448)}",,,,
+price,float64,2100838,0,0.0,39734,"{257.15: np.int64(11352), 51.22: np.int64(6988), 231.64: np.int64(6097)}",0.0,2574.07,290.0583,163.73
+user_session,object,2100838,0,0.0,460874,"{'cfb90a35-9575-495c-b6aa-48ddca2a7a9c': np.int64(1137), 'f3fde14e-c022-446a-9629-1a85f3102a8e': np.int64(344), 'c64d2ed7-33dc-4e3b-8335-5c8f56bee68f': np.int64(208)}",,,,
+event_date,object,2100838,0,0.0,31,"{datetime.date(2019, 10, 13): np.int64(81393), datetime.date(2019, 10, 16): np.int64(75966), datetime.date(2019, 10, 18): np.int64(74616)}",,,,

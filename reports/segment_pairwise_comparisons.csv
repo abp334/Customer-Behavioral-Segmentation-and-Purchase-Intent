@@ -1,0 +1,7 @@
+pair,p1_rate_pct,p2_rate_pct,diff_pct,z_statistic,p_value_raw,p_val_bonferroni,reject_bonferroni,p_val_fdr,reject_fdr
+Dormant Bouncers vs Recent Window Shoppers,1.28,2.0,-0.72,-7.8864,3.1086244689504383e-15,0.0,True,0.0,True
+Dormant Bouncers vs Champions,1.28,16.93,-15.65,-69.1744,0.0,0.0,True,0.0,True
+Dormant Bouncers vs Active Explorers,1.28,4.9,-3.62,-27.5831,0.0,0.0,True,0.0,True
+Recent Window Shoppers vs Champions,2.0,16.93,-14.93,-60.5153,0.0,0.0,True,0.0,True
+Recent Window Shoppers vs Active Explorers,2.0,4.9,-2.9,-19.8521,0.0,0.0,True,0.0,True
+Champions vs Active Explorers,16.93,4.9,12.03,37.0903,0.0,0.0,True,0.0,True

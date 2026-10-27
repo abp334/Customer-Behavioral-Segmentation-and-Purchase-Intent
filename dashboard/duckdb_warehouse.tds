@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<datasource formatted-name='duckdb_warehouse' inline='true' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <connection authentication='auth-none' class='duckdb_jdbc' server='local' v-connection_string_file='/Users/aayushpandya/DSC_GP/data/gold/warehouse.duckdb'>
+    <named-connections>
+      <named-connection name='duckdb.warehouse.local'>
+        <connection authentication='auth-none' class='duckdb_jdbc' server='local' v-connection_string_file='/Users/aayushpandya/DSC_GP/data/gold/warehouse.duckdb'/>
+      </named-connection>
+    </named-connections>
+    <relation connection='duckdb.warehouse.local' name='gold_user_features_segmented' table='[gold_user_features_segmented]' type='table'/>
+  </connection>
+  <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+</datasource>

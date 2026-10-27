@@ -1,0 +1,5 @@
+stage,count,desc,pct_of_sample
+01_raw_csv,42448764,Raw October clickstream log,2020.56
+02_bronze_sample,2100838,Deterministic 5% user sample,100.0
+03_silver_clean,2096110,"Deduplicated, price > 0, imputed",99.77
+04_gold_users,110956,Feature-window active customer profiles,5.28

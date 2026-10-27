@@ -1,0 +1,5 @@
+stage,row_count,pct_of_raw
+01_raw_csv,42448764,100.0
+02_user_sampled,2100838,4.95
+03_bronze_parquet,2100838,4.95
+04_pandas_bronze,2100838,4.95
