@@ -1,44 +1,13 @@
 # ============================================================
-# DSC Capstone – Customer Behavioral Segmentation & Purchase
-# Intent Prediction
+# Production Deployment Dependencies for Streamlit Cloud
 # ============================================================
-# Install with:  pip install -r requirements.txt
-# Requires Python 3.10 and Java 17 (OpenJDK)
-# ============================================================
-
-# --- Core Data Stack ---
-numpy>=1.24,<2.0
-pandas>=2.0,<2.3
-pyarrow>=14.0            # Parquet read/write engine
-
-# --- Big Data ---
-pyspark>=3.5,<3.6        # Local-mode Spark
-
-# --- Warehouse ---
-duckdb>=0.9,<1.1
-
-# --- Visualization ---
-matplotlib>=3.7
-seaborn>=0.13
-plotly>=5.18              # Interactive charts for Streamlit
-
-# --- Machine Learning ---
-scikit-learn>=1.3,<1.6
-xgboost>=2.0,<2.2
-lightgbm>=4.1,<4.5
-shap>=0.44               # Model explainability
-
-# --- Statistics & Time Series ---
-scipy>=1.11
-statsmodels>=0.14
-
-# --- App & Dashboard ---
-streamlit>=1.30
-joblib>=1.3               # Model serialization
-
-# --- Kaggle Download ---
-kaggle>=1.6
-
-# --- Jupyter ---
-notebook>=7.0
-ipykernel>=6.25
+streamlit>=1.30.0
+numpy>=1.24.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+scipy>=1.11.0
+statsmodels>=0.14.0
+plotly>=5.18.0
+fpdf2>=2.7.0

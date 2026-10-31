@@ -1,0 +1,1664 @@
+[
+  {
+    "case_id": 1,
+    "customer_code": "CUST-1384",
+    "raw_user_id": 521871384,
+    "cluster_id": 0,
+    "persona_name": "Dormant Bouncers (Cold / Inactive)",
+    "true_next_10d_purchase": 1,
+    "calibrated_prob": 0.0217,
+    "raw_prob": 0.3418,
+    "difficulty": "Hard",
+    "total_spend": 0.0,
+    "total_events": 6,
+    "cart_count": 0,
+    "recency_days": 12,
+    "reasons": [
+      "Lapsed activity (12 days dormant)",
+      "Broad browsing catalog (5 products)"
+    ],
+    "timeline": [
+      {
+        "day": 30,
+        "date": "2019-09-30",
+        "action": "view",
+        "item": "Apple Smartphone ($975.57)",
+        "price": 975.57
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Unknown Bed ($145.64)",
+        "price": 145.64
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Brw Bed ($143.38)",
+        "price": 143.38
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Brw Bed ($143.38)",
+        "price": 143.38
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Casper Unknown ($102.19)",
+        "price": 102.19
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Vegas Unknown ($214.16)",
+        "price": 214.16
+      }
+    ]
+  },
+  {
+    "case_id": 2,
+    "customer_code": "CUST-6773",
+    "raw_user_id": 559206773,
+    "cluster_id": 0,
+    "persona_name": "Dormant Bouncers (Cold / Inactive)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0109,
+    "raw_prob": 0.2018,
+    "difficulty": "Easy",
+    "total_spend": 0.0,
+    "total_events": 1,
+    "cart_count": 0,
+    "recency_days": 9,
+    "reasons": [
+      "Single product visit pattern"
+    ],
+    "timeline": [
+      {
+        "day": 11,
+        "date": "2019-10-11",
+        "action": "view",
+        "item": "Xiaomi Smartphone ($229.06)",
+        "price": 229.06
+      }
+    ]
+  },
+  {
+    "case_id": 3,
+    "customer_code": "CUST-8645",
+    "raw_user_id": 552958645,
+    "cluster_id": 0,
+    "persona_name": "Dormant Bouncers (Cold / Inactive)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0366,
+    "raw_prob": 0.4751,
+    "difficulty": "Medium",
+    "total_spend": 0.0,
+    "total_events": 4,
+    "cart_count": 0,
+    "recency_days": 2,
+    "reasons": [
+      "High recency (active 2 days ago)"
+    ],
+    "timeline": [
+      {
+        "day": 2,
+        "date": "2019-10-02",
+        "action": "view",
+        "item": "Texet Telephone ($43.50)",
+        "price": 43.5
+      },
+      {
+        "day": 2,
+        "date": "2019-10-02",
+        "action": "view",
+        "item": "Samsung Smartphone ($198.20)",
+        "price": 198.2
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Triangle Unknown ($47.62)",
+        "price": 47.62
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Cordiant Unknown ($48.91)",
+        "price": 48.91
+      }
+    ]
+  },
+  {
+    "case_id": 4,
+    "customer_code": "CUST-4706",
+    "raw_user_id": 516994706,
+    "cluster_id": 0,
+    "persona_name": "Dormant Bouncers (Cold / Inactive)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0123,
+    "raw_prob": 0.2226,
+    "difficulty": "Easy",
+    "total_spend": 0.0,
+    "total_events": 2,
+    "cart_count": 0,
+    "recency_days": 11,
+    "reasons": [
+      "Lapsed activity (11 days dormant)"
+    ],
+    "timeline": [
+      {
+        "day": 9,
+        "date": "2019-10-09",
+        "action": "view",
+        "item": "Xiaomi Clocks ($67.89)",
+        "price": 67.89
+      },
+      {
+        "day": 9,
+        "date": "2019-10-09",
+        "action": "view",
+        "item": "Xiaomi Clocks ($67.89)",
+        "price": 67.89
+      }
+    ]
+  },
+  {
+    "case_id": 5,
+    "customer_code": "CUST-8605",
+    "raw_user_id": 525798605,
+    "cluster_id": 0,
+    "persona_name": "Dormant Bouncers (Cold / Inactive)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.016,
+    "raw_prob": 0.2733,
+    "difficulty": "Easy",
+    "total_spend": 0.0,
+    "total_events": 6,
+    "cart_count": 0,
+    "recency_days": 7,
+    "reasons": [
+      "Single product visit pattern"
+    ],
+    "timeline": [
+      {
+        "day": 2,
+        "date": "2019-10-02",
+        "action": "view",
+        "item": "Viatti Unknown ($39.90)",
+        "price": 39.9
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Triangle Unknown ($37.32)",
+        "price": 37.32
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Triangle Unknown ($37.32)",
+        "price": 37.32
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Triangle Unknown ($37.32)",
+        "price": 37.32
+      },
+      {
+        "day": 13,
+        "date": "2019-10-13",
+        "action": "view",
+        "item": "Triangle Unknown ($37.32)",
+        "price": 37.32
+      },
+      {
+        "day": 13,
+        "date": "2019-10-13",
+        "action": "view",
+        "item": "Triangle Unknown ($37.32)",
+        "price": 37.32
+      }
+    ]
+  },
+  {
+    "case_id": 6,
+    "customer_code": "CUST-5749",
+    "raw_user_id": 547095749,
+    "cluster_id": 1,
+    "persona_name": "Recent Window Shoppers (Warm Bouncers)",
+    "true_next_10d_purchase": 1,
+    "calibrated_prob": 0.0264,
+    "raw_prob": 0.3896,
+    "difficulty": "Hard",
+    "total_spend": 0.0,
+    "total_events": 6,
+    "cart_count": 0,
+    "recency_days": 0,
+    "reasons": [
+      "High recency (active 0 days ago)"
+    ],
+    "timeline": [
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Samsung Smartphone ($131.53)",
+        "price": 131.53
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Oneplus Smartphone ($411.49)",
+        "price": 411.49
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Oneplus Smartphone ($411.49)",
+        "price": 411.49
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Oneplus Smartphone ($411.49)",
+        "price": 411.49
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Samsung Smartphone ($643.23)",
+        "price": 643.23
+      },
+      {
+        "day": 19,
+        "date": "2019-10-19",
+        "action": "view",
+        "item": "Oppo Smartphone ($776.08)",
+        "price": 776.08
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Oppo Smartphone ($128.45)",
+        "price": 128.45
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Oppo Smartphone ($128.45)",
+        "price": 128.45
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "cart",
+        "item": "Oppo Smartphone ($128.45)",
+        "price": 128.45
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "purchase",
+        "item": "Oppo Smartphone ($128.45)",
+        "price": 128.45
+      }
+    ]
+  },
+  {
+    "case_id": 7,
+    "customer_code": "CUST-0201",
+    "raw_user_id": 546680201,
+    "cluster_id": 1,
+    "persona_name": "Recent Window Shoppers (Warm Bouncers)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0147,
+    "raw_prob": 0.2566,
+    "difficulty": "Easy",
+    "total_spend": 0.0,
+    "total_events": 1,
+    "cart_count": 0,
+    "recency_days": 3,
+    "reasons": [
+      "High recency (active 3 days ago)"
+    ],
+    "timeline": [
+      {
+        "day": 17,
+        "date": "2019-10-17",
+        "action": "view",
+        "item": "Apple Clocks ($321.50)",
+        "price": 321.5
+      }
+    ]
+  },
+  {
+    "case_id": 8,
+    "customer_code": "CUST-8966",
+    "raw_user_id": 529838966,
+    "cluster_id": 1,
+    "persona_name": "Recent Window Shoppers (Warm Bouncers)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0191,
+    "raw_prob": 0.3123,
+    "difficulty": "Easy",
+    "total_spend": 0.0,
+    "total_events": 2,
+    "cart_count": 0,
+    "recency_days": 4,
+    "reasons": [
+      "Single product visit pattern"
+    ],
+    "timeline": [
+      {
+        "day": 15,
+        "date": "2019-10-15",
+        "action": "view",
+        "item": "Triangle Unknown ($53.28)",
+        "price": 53.28
+      },
+      {
+        "day": 15,
+        "date": "2019-10-15",
+        "action": "view",
+        "item": "Triangle Unknown ($50.19)",
+        "price": 50.19
+      }
+    ]
+  },
+  {
+    "case_id": 9,
+    "customer_code": "CUST-4340",
+    "raw_user_id": 533324340,
+    "cluster_id": 1,
+    "persona_name": "Recent Window Shoppers (Warm Bouncers)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0162,
+    "raw_prob": 0.2762,
+    "difficulty": "Easy",
+    "total_spend": 0.0,
+    "total_events": 2,
+    "cart_count": 0,
+    "recency_days": 4,
+    "reasons": [
+      "Single product visit pattern"
+    ],
+    "timeline": [
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Apple Tablet ($660.75)",
+        "price": 660.75
+      },
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Apple Tablet ($660.75)",
+        "price": 660.75
+      }
+    ]
+  },
+  {
+    "case_id": 10,
+    "customer_code": "CUST-5642",
+    "raw_user_id": 512885642,
+    "cluster_id": 1,
+    "persona_name": "Recent Window Shoppers (Warm Bouncers)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0145,
+    "raw_prob": 0.2542,
+    "difficulty": "Easy",
+    "total_spend": 0.0,
+    "total_events": 1,
+    "cart_count": 0,
+    "recency_days": 2,
+    "reasons": [
+      "High recency (active 2 days ago)"
+    ],
+    "timeline": [
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Omabelle Unknown ($1,673.14)",
+        "price": 1673.14
+      }
+    ]
+  },
+  {
+    "case_id": 11,
+    "customer_code": "CUST-6533",
+    "raw_user_id": 542376533,
+    "cluster_id": 2,
+    "persona_name": "Champions (High-Value Spenders)",
+    "true_next_10d_purchase": 1,
+    "calibrated_prob": 0.2089,
+    "raw_prob": 0.87,
+    "difficulty": "Easy",
+    "total_spend": 28.06,
+    "total_events": 6,
+    "cart_count": 2,
+    "recency_days": 0,
+    "reasons": [
+      "Active cart intent (2 items in cart)",
+      "High recency (active 0 days ago)"
+    ],
+    "timeline": [
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Vitek Iron ($28.06)",
+        "price": 28.06
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "cart",
+        "item": "Vitek Iron ($28.06)",
+        "price": 28.06
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Vitek Iron ($28.06)",
+        "price": 28.06
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "cart",
+        "item": "Vitek Iron ($28.06)",
+        "price": 28.06
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "purchase",
+        "item": "Vitek Iron ($28.06)",
+        "price": 28.06
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Vitek Iron ($28.06)",
+        "price": 28.06
+      }
+    ]
+  },
+  {
+    "case_id": 12,
+    "customer_code": "CUST-6408",
+    "raw_user_id": 512656408,
+    "cluster_id": 2,
+    "persona_name": "Champions (High-Value Spenders)",
+    "true_next_10d_purchase": 1,
+    "calibrated_prob": 0.2839,
+    "raw_prob": 0.9106,
+    "difficulty": "Easy",
+    "total_spend": 510.51,
+    "total_events": 59,
+    "cart_count": 0,
+    "recency_days": 0,
+    "reasons": [
+      "High historical spend ($510.51)",
+      "High recency (active 0 days ago)",
+      "Broad browsing catalog (30 products)"
+    ],
+    "timeline": [
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Bambola Chair ($36.00)",
+        "price": 36.0
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "purchase",
+        "item": "Bambola Chair ($36.00)",
+        "price": 36.0
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Bambola Chair ($36.00)",
+        "price": 36.0
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Bambola Chair ($36.00)",
+        "price": 36.0
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Samsung Smartphone ($170.92)",
+        "price": 170.92
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Bambola Chair ($35.97)",
+        "price": 35.97
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Samsung Smartphone ($223.66)",
+        "price": 223.66
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "purchase",
+        "item": "Samsung Smartphone ($223.66)",
+        "price": 223.66
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Samsung Smartphone ($223.66)",
+        "price": 223.66
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Unknown Swing ($31.40)",
+        "price": 31.4
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Unknown Swing ($31.40)",
+        "price": 31.4
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($33.20)",
+        "price": 33.2
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($33.20)",
+        "price": 33.2
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($45.81)",
+        "price": 45.81
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($45.81)",
+        "price": 45.81
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($59.28)",
+        "price": 59.28
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($59.28)",
+        "price": 59.28
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($73.14)",
+        "price": 73.14
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($73.14)",
+        "price": 73.14
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($59.28)",
+        "price": 59.28
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lorelli Swing ($59.28)",
+        "price": 59.28
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Samsung Smartphone ($196.89)",
+        "price": 196.89
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Samsung Smartphone ($196.89)",
+        "price": 196.89
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Oppo Smartphone ($179.93)",
+        "price": 179.93
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Oppo Smartphone ($179.93)",
+        "price": 179.93
+      }
+    ]
+  },
+  {
+    "case_id": 13,
+    "customer_code": "CUST-6608",
+    "raw_user_id": 560326608,
+    "cluster_id": 2,
+    "persona_name": "Champions (High-Value Spenders)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.1447,
+    "raw_prob": 0.8087,
+    "difficulty": "Medium",
+    "total_spend": 229.99,
+    "total_events": 4,
+    "cart_count": 1,
+    "recency_days": 5,
+    "reasons": [
+      "High historical spend ($229.99)"
+    ],
+    "timeline": [
+      {
+        "day": 14,
+        "date": "2019-10-14",
+        "action": "view",
+        "item": "Samsung Smartphone ($229.99)",
+        "price": 229.99
+      },
+      {
+        "day": 14,
+        "date": "2019-10-14",
+        "action": "cart",
+        "item": "Samsung Smartphone ($229.99)",
+        "price": 229.99
+      },
+      {
+        "day": 14,
+        "date": "2019-10-14",
+        "action": "purchase",
+        "item": "Samsung Smartphone ($229.99)",
+        "price": 229.99
+      },
+      {
+        "day": 14,
+        "date": "2019-10-14",
+        "action": "view",
+        "item": "Samsung Smartphone ($229.99)",
+        "price": 229.99
+      }
+    ]
+  },
+  {
+    "case_id": 14,
+    "customer_code": "CUST-7505",
+    "raw_user_id": 548587505,
+    "cluster_id": 2,
+    "persona_name": "Champions (High-Value Spenders)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0768,
+    "raw_prob": 0.6703,
+    "difficulty": "Medium",
+    "total_spend": 148.91,
+    "total_events": 9,
+    "cart_count": 0,
+    "recency_days": 11,
+    "reasons": [
+      "Lapsed activity (11 days dormant)",
+      "Broad browsing catalog (6 products)"
+    ],
+    "timeline": [
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Unknown Bed ($87.52)",
+        "price": 87.52
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Samsung Smartphone ($621.42)",
+        "price": 621.42
+      },
+      {
+        "day": 9,
+        "date": "2019-10-09",
+        "action": "view",
+        "item": "Alesis Acoustic ($336.46)",
+        "price": 336.46
+      },
+      {
+        "day": 9,
+        "date": "2019-10-09",
+        "action": "view",
+        "item": "Alesis Acoustic ($336.46)",
+        "price": 336.46
+      },
+      {
+        "day": 9,
+        "date": "2019-10-09",
+        "action": "view",
+        "item": "Sony Acoustic ($257.15)",
+        "price": 257.15
+      },
+      {
+        "day": 9,
+        "date": "2019-10-09",
+        "action": "view",
+        "item": "Sony Unknown ($97.56)",
+        "price": 97.56
+      },
+      {
+        "day": 9,
+        "date": "2019-10-09",
+        "action": "view",
+        "item": "Panasonic Unknown ($148.91)",
+        "price": 148.91
+      },
+      {
+        "day": 9,
+        "date": "2019-10-09",
+        "action": "purchase",
+        "item": "Panasonic Unknown ($148.91)",
+        "price": 148.91
+      },
+      {
+        "day": 9,
+        "date": "2019-10-09",
+        "action": "view",
+        "item": "Panasonic Unknown ($148.91)",
+        "price": 148.91
+      }
+    ]
+  },
+  {
+    "case_id": 15,
+    "customer_code": "CUST-6674",
+    "raw_user_id": 529116674,
+    "cluster_id": 2,
+    "persona_name": "Champions (High-Value Spenders)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0918,
+    "raw_prob": 0.7131,
+    "difficulty": "Medium",
+    "total_spend": 720.48,
+    "total_events": 5,
+    "cart_count": 0,
+    "recency_days": 10,
+    "reasons": [
+      "High historical spend ($720.48)"
+    ],
+    "timeline": [
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Lenovo Notebook ($488.82)",
+        "price": 488.82
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Acer Notebook ($720.48)",
+        "price": 720.48
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "purchase",
+        "item": "Acer Notebook ($720.48)",
+        "price": 720.48
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Acer Notebook ($720.48)",
+        "price": 720.48
+      },
+      {
+        "day": 10,
+        "date": "2019-10-10",
+        "action": "view",
+        "item": "Acer Notebook ($720.48)",
+        "price": 720.48
+      }
+    ]
+  },
+  {
+    "case_id": 16,
+    "customer_code": "CUST-1843",
+    "raw_user_id": 516381843,
+    "cluster_id": 3,
+    "persona_name": "Active Explorers (High Engagement)",
+    "true_next_10d_purchase": 1,
+    "calibrated_prob": 0.0217,
+    "raw_prob": 0.3417,
+    "difficulty": "Hard",
+    "total_spend": 0.0,
+    "total_events": 21,
+    "cart_count": 0,
+    "recency_days": 19,
+    "reasons": [
+      "Lapsed activity (19 days dormant)",
+      "Broad browsing catalog (18 products)"
+    ],
+    "timeline": [
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Toro Unknown ($16.96)",
+        "price": 16.96
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Unknown Unknown ($9.76)",
+        "price": 9.76
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Unknown Unknown ($74.52)",
+        "price": 74.52
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Mutant Unknown ($15.32)",
+        "price": 15.32
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Unknown Unknown ($74.52)",
+        "price": 74.52
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Unknown Tennis ($24.19)",
+        "price": 24.19
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Unknown Table ($64.35)",
+        "price": 64.35
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Unknown Tennis ($30.45)",
+        "price": 30.45
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Nika Unknown ($102.96)",
+        "price": 102.96
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Unknown Shoes ($282.89)",
+        "price": 282.89
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Huawei Unknown ($76.70)",
+        "price": 76.7
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Triangle Unknown ($41.96)",
+        "price": 41.96
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Tunga Unknown ($28.83)",
+        "price": 28.83
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Cordiant Unknown ($43.50)",
+        "price": 43.5
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Cordiant Unknown ($40.41)",
+        "price": 40.41
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Cordiant Unknown ($40.41)",
+        "price": 40.41
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Unknown Unknown ($34.75)",
+        "price": 34.75
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Gerat Unknown ($57.40)",
+        "price": 57.4
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Prestigio Videoregister ($32.18)",
+        "price": 32.18
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Neoline Videoregister ($202.68)",
+        "price": 202.68
+      },
+      {
+        "day": 1,
+        "date": "2019-10-01",
+        "action": "view",
+        "item": "Neoline Videoregister ($202.68)",
+        "price": 202.68
+      }
+    ]
+  },
+  {
+    "case_id": 17,
+    "customer_code": "CUST-6736",
+    "raw_user_id": 515406736,
+    "cluster_id": 3,
+    "persona_name": "Active Explorers (High Engagement)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0442,
+    "raw_prob": 0.5258,
+    "difficulty": "Medium",
+    "total_spend": 0.0,
+    "total_events": 9,
+    "cart_count": 0,
+    "recency_days": 3,
+    "reasons": [
+      "High recency (active 3 days ago)",
+      "Broad browsing catalog (8 products)"
+    ],
+    "timeline": [
+      {
+        "day": 2,
+        "date": "2019-10-02",
+        "action": "view",
+        "item": "Unknown Unknown ($686.82)",
+        "price": 686.82
+      },
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Samsung Vacuum ($136.17)",
+        "price": 136.17
+      },
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Xiaomi Vacuum ($475.95)",
+        "price": 475.95
+      },
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Tefal Iron ($56.60)",
+        "price": 56.6
+      },
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Philips Iron ($69.42)",
+        "price": 69.42
+      },
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Philips Iron ($131.25)",
+        "price": 131.25
+      },
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Bosch Dishwasher ($535.38)",
+        "price": 535.38
+      },
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Bosch Dishwasher ($535.15)",
+        "price": 535.15
+      },
+      {
+        "day": 16,
+        "date": "2019-10-16",
+        "action": "view",
+        "item": "Bosch Dishwasher ($535.15)",
+        "price": 535.15
+      }
+    ]
+  },
+  {
+    "case_id": 18,
+    "customer_code": "CUST-3982",
+    "raw_user_id": 515673982,
+    "cluster_id": 3,
+    "persona_name": "Active Explorers (High Engagement)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.047,
+    "raw_prob": 0.5422,
+    "difficulty": "Medium",
+    "total_spend": 0.0,
+    "total_events": 23,
+    "cart_count": 0,
+    "recency_days": 7,
+    "reasons": [
+      "Broad browsing catalog (12 products)"
+    ],
+    "timeline": [
+      {
+        "day": 4,
+        "date": "2019-10-04",
+        "action": "view",
+        "item": "Xiaomi Smartphone ($282.89)",
+        "price": 282.89
+      },
+      {
+        "day": 4,
+        "date": "2019-10-04",
+        "action": "view",
+        "item": "Xiaomi Smartphone ($282.89)",
+        "price": 282.89
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Carfashion Unknown ($60.23)",
+        "price": 60.23
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Carfashion Unknown ($60.23)",
+        "price": 60.23
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Cantra Unknown ($101.67)",
+        "price": 101.67
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Cantra Unknown ($101.67)",
+        "price": 101.67
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Cantra Unknown ($45.04)",
+        "price": 45.04
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Cantra Unknown ($45.04)",
+        "price": 45.04
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Unknown Videoregister ($30.89)",
+        "price": 30.89
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Unknown Videoregister ($30.89)",
+        "price": 30.89
+      },
+      {
+        "day": 8,
+        "date": "2019-10-08",
+        "action": "view",
+        "item": "Neoline Videoregister ($143.89)",
+        "price": 143.89
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Samsung Smartphone ($553.36)",
+        "price": 553.36
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Samsung Smartphone ($553.36)",
+        "price": 553.36
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Samsung Smartphone ($643.23)",
+        "price": 643.23
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Lg Washer ($373.21)",
+        "price": 373.21
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Lg Washer ($373.21)",
+        "price": 373.21
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Lg Washer ($380.96)",
+        "price": 380.96
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Lg Washer ($380.96)",
+        "price": 380.96
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Samsung Washer ($319.14)",
+        "price": 319.14
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Samsung Washer ($319.14)",
+        "price": 319.14
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Beko Washer ($180.16)",
+        "price": 180.16
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Beko Washer ($180.16)",
+        "price": 180.16
+      },
+      {
+        "day": 12,
+        "date": "2019-10-12",
+        "action": "view",
+        "item": "Beko Washer ($180.16)",
+        "price": 180.16
+      }
+    ]
+  },
+  {
+    "case_id": 19,
+    "customer_code": "CUST-1522",
+    "raw_user_id": 535831522,
+    "cluster_id": 3,
+    "persona_name": "Active Explorers (High Engagement)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0349,
+    "raw_prob": 0.4627,
+    "difficulty": "Medium",
+    "total_spend": 0.0,
+    "total_events": 17,
+    "cart_count": 0,
+    "recency_days": 0,
+    "reasons": [
+      "High recency (active 0 days ago)",
+      "Broad browsing catalog (13 products)"
+    ],
+    "timeline": [
+      {
+        "day": 15,
+        "date": "2019-10-15",
+        "action": "view",
+        "item": "Xiaomi Headphone ($42.47)",
+        "price": 42.47
+      },
+      {
+        "day": 15,
+        "date": "2019-10-15",
+        "action": "view",
+        "item": "Olmio Headphone ($47.71)",
+        "price": 47.71
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Olmio Headphone ($47.71)",
+        "price": 47.71
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Olmio Headphone ($47.71)",
+        "price": 47.71
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Samsung Smartphone ($131.53)",
+        "price": 131.53
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Samsung Smartphone ($1,006.19)",
+        "price": 1006.19
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Samsung Smartphone ($949.83)",
+        "price": 949.83
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Oppo Smartphone ($154.19)",
+        "price": 154.19
+      },
+      {
+        "day": 18,
+        "date": "2019-10-18",
+        "action": "view",
+        "item": "Oppo Smartphone ($154.19)",
+        "price": 154.19
+      },
+      {
+        "day": 19,
+        "date": "2019-10-19",
+        "action": "view",
+        "item": "Xiaomi Smartphone ($225.13)",
+        "price": 225.13
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Xiaomi Headphone ($43.24)",
+        "price": 43.24
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Xiaomi Headphone ($53.15)",
+        "price": 53.15
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Xiaomi Headphone ($22.94)",
+        "price": 22.94
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Xiaomi Headphone ($43.24)",
+        "price": 43.24
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Apple Headphone ($190.34)",
+        "price": 190.34
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Beats Headphone ($344.90)",
+        "price": 344.9
+      },
+      {
+        "day": 20,
+        "date": "2019-10-20",
+        "action": "view",
+        "item": "Samsung Headphone ($107.49)",
+        "price": 107.49
+      }
+    ]
+  },
+  {
+    "case_id": 20,
+    "customer_code": "CUST-8698",
+    "raw_user_id": 512518698,
+    "cluster_id": 3,
+    "persona_name": "Active Explorers (High Engagement)",
+    "true_next_10d_purchase": 0,
+    "calibrated_prob": 0.0887,
+    "raw_prob": 0.7051,
+    "difficulty": "Medium",
+    "total_spend": 0.0,
+    "total_events": 72,
+    "cart_count": 0,
+    "recency_days": 1,
+    "reasons": [
+      "High recency (active 1 days ago)",
+      "Broad browsing catalog (27 products)"
+    ],
+    "timeline": [
+      {
+        "day": 30,
+        "date": "2019-09-30",
+        "action": "view",
+        "item": "Huawei Smartphone ($694.48)",
+        "price": 694.48
+      },
+      {
+        "day": 30,
+        "date": "2019-09-30",
+        "action": "view",
+        "item": "Huawei Smartphone ($694.48)",
+        "price": 694.48
+      },
+      {
+        "day": 30,
+        "date": "2019-09-30",
+        "action": "view",
+        "item": "Huawei Smartphone ($694.48)",
+        "price": 694.48
+      },
+      {
+        "day": 30,
+        "date": "2019-09-30",
+        "action": "view",
+        "item": "Apple Smartphone ($804.21)",
+        "price": 804.21
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Apple Smartphone ($975.56)",
+        "price": 975.56
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Samsung Smartphone ($130.76)",
+        "price": 130.76
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Samsung Smartphone ($380.78)",
+        "price": 380.78
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Samsung Smartphone ($380.78)",
+        "price": 380.78
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Samsung Smartphone ($380.78)",
+        "price": 380.78
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Samsung Smartphone ($611.44)",
+        "price": 611.44
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Samsung Smartphone ($611.44)",
+        "price": 611.44
+      },
+      {
+        "day": 3,
+        "date": "2019-10-03",
+        "action": "view",
+        "item": "Samsung Smartphone ($580.45)",
+        "price": 580.45
+      },
+      {
+        "day": 5,
+        "date": "2019-10-05",
+        "action": "view",
+        "item": "Oppo Smartphone ($591.24)",
+        "price": 591.24
+      },
+      {
+        "day": 5,
+        "date": "2019-10-05",
+        "action": "view",
+        "item": "Oppo Smartphone ($591.24)",
+        "price": 591.24
+      },
+      {
+        "day": 5,
+        "date": "2019-10-05",
+        "action": "view",
+        "item": "Oppo Smartphone ($591.24)",
+        "price": 591.24
+      },
+      {
+        "day": 5,
+        "date": "2019-10-05",
+        "action": "view",
+        "item": "Oppo Smartphone ($591.24)",
+        "price": 591.24
+      },
+      {
+        "day": 5,
+        "date": "2019-10-05",
+        "action": "view",
+        "item": "Oneplus Smartphone ($591.75)",
+        "price": 591.75
+      },
+      {
+        "day": 5,
+        "date": "2019-10-05",
+        "action": "view",
+        "item": "Oneplus Smartphone ($591.75)",
+        "price": 591.75
+      },
+      {
+        "day": 7,
+        "date": "2019-10-07",
+        "action": "view",
+        "item": "Samsung Smartphone ($731.04)",
+        "price": 731.04
+      },
+      {
+        "day": 7,
+        "date": "2019-10-07",
+        "action": "view",
+        "item": "Samsung Smartphone ($731.04)",
+        "price": 731.04
+      },
+      {
+        "day": 7,
+        "date": "2019-10-07",
+        "action": "view",
+        "item": "Samsung Smartphone ($731.04)",
+        "price": 731.04
+      },
+      {
+        "day": 7,
+        "date": "2019-10-07",
+        "action": "view",
+        "item": "Honor Smartphone ($643.49)",
+        "price": 643.49
+      },
+      {
+        "day": 7,
+        "date": "2019-10-07",
+        "action": "view",
+        "item": "Vivo Smartphone ($308.86)",
+        "price": 308.86
+      },
+      {
+        "day": 7,
+        "date": "2019-10-07",
+        "action": "view",
+        "item": "Vivo Smartphone ($308.86)",
+        "price": 308.86
+      },
+      {
+        "day": 7,
+        "date": "2019-10-07",
+        "action": "view",
+        "item": "Vivo Smartphone ($308.86)",
+        "price": 308.86
+      }
+    ]
+  }
+]

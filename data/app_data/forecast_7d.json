@@ -1,0 +1,329 @@
+{
+  "sarima_order": "(1,1,1) x (1,0,0)[7]",
+  "holdout_mape_pct": 3.99,
+  "holdout_rmse": 2976.73,
+  "holdout_mae": 2488.8,
+  "forecast_horizon_days": 7,
+  "historical_series": [
+    {
+      "full_date": "2019-10-01",
+      "day_name": "Tuesday",
+      "total_events": 61966,
+      "active_users": 9594,
+      "total_purchases": 953,
+      "total_gmv": 307940.85
+    },
+    {
+      "full_date": "2019-10-02",
+      "day_name": "Wednesday",
+      "total_events": 58058,
+      "active_users": 9096,
+      "total_purchases": 1001,
+      "total_gmv": 311387.7
+    },
+    {
+      "full_date": "2019-10-03",
+      "day_name": "Thursday",
+      "total_events": 55606,
+      "active_users": 8489,
+      "total_purchases": 912,
+      "total_gmv": 261049.04
+    },
+    {
+      "full_date": "2019-10-04",
+      "day_name": "Friday",
+      "total_events": 69639,
+      "active_users": 10180,
+      "total_purchases": 1304,
+      "total_gmv": 426423.77
+    },
+    {
+      "full_date": "2019-10-05",
+      "day_name": "Saturday",
+      "total_events": 67263,
+      "active_users": 9825,
+      "total_purchases": 1156,
+      "total_gmv": 338184.63
+    },
+    {
+      "full_date": "2019-10-06",
+      "day_name": "Sunday",
+      "total_events": 65036,
+      "active_users": 9549,
+      "total_purchases": 1102,
+      "total_gmv": 342885.59
+    },
+    {
+      "full_date": "2019-10-07",
+      "day_name": "Monday",
+      "total_events": 59356,
+      "active_users": 9383,
+      "total_purchases": 1057,
+      "total_gmv": 298509.35
+    },
+    {
+      "full_date": "2019-10-08",
+      "day_name": "Tuesday",
+      "total_events": 69088,
+      "active_users": 11270,
+      "total_purchases": 1104,
+      "total_gmv": 296111.97
+    },
+    {
+      "full_date": "2019-10-09",
+      "day_name": "Wednesday",
+      "total_events": 66481,
+      "active_users": 10732,
+      "total_purchases": 1144,
+      "total_gmv": 327134.91
+    },
+    {
+      "full_date": "2019-10-10",
+      "day_name": "Thursday",
+      "total_events": 64111,
+      "active_users": 10276,
+      "total_purchases": 1089,
+      "total_gmv": 306405.35
+    },
+    {
+      "full_date": "2019-10-11",
+      "day_name": "Friday",
+      "total_events": 73283,
+      "active_users": 11437,
+      "total_purchases": 1361,
+      "total_gmv": 387492.55
+    },
+    {
+      "full_date": "2019-10-12",
+      "day_name": "Saturday",
+      "total_events": 73894,
+      "active_users": 10522,
+      "total_purchases": 1379,
+      "total_gmv": 390628.46
+    },
+    {
+      "full_date": "2019-10-13",
+      "day_name": "Sunday",
+      "total_events": 81291,
+      "active_users": 11264,
+      "total_purchases": 1422,
+      "total_gmv": 364333.74
+    },
+    {
+      "full_date": "2019-10-14",
+      "day_name": "Monday",
+      "total_events": 69631,
+      "active_users": 10516,
+      "total_purchases": 1318,
+      "total_gmv": 401535.85
+    },
+    {
+      "full_date": "2019-10-15",
+      "day_name": "Tuesday",
+      "total_events": 73811,
+      "active_users": 11459,
+      "total_purchases": 1263,
+      "total_gmv": 373461.73
+    },
+    {
+      "full_date": "2019-10-16",
+      "day_name": "Wednesday",
+      "total_events": 75783,
+      "active_users": 11395,
+      "total_purchases": 1527,
+      "total_gmv": 454825.21
+    },
+    {
+      "full_date": "2019-10-17",
+      "day_name": "Thursday",
+      "total_events": 71040,
+      "active_users": 10416,
+      "total_purchases": 1367,
+      "total_gmv": 396669.37
+    },
+    {
+      "full_date": "2019-10-18",
+      "day_name": "Friday",
+      "total_events": 74438,
+      "active_users": 11514,
+      "total_purchases": 1336,
+      "total_gmv": 392128.85
+    },
+    {
+      "full_date": "2019-10-19",
+      "day_name": "Saturday",
+      "total_events": 72365,
+      "active_users": 10870,
+      "total_purchases": 1185,
+      "total_gmv": 364720.56
+    },
+    {
+      "full_date": "2019-10-20",
+      "day_name": "Sunday",
+      "total_events": 73183,
+      "active_users": 11496,
+      "total_purchases": 1366,
+      "total_gmv": 398323.98
+    },
+    {
+      "full_date": "2019-10-21",
+      "day_name": "Monday",
+      "total_events": 68848,
+      "active_users": 11421,
+      "total_purchases": 1221,
+      "total_gmv": 368962.4
+    },
+    {
+      "full_date": "2019-10-22",
+      "day_name": "Tuesday",
+      "total_events": 70829,
+      "active_users": 11252,
+      "total_purchases": 1223,
+      "total_gmv": 371169.49
+    },
+    {
+      "full_date": "2019-10-23",
+      "day_name": "Wednesday",
+      "total_events": 68271,
+      "active_users": 10977,
+      "total_purchases": 1159,
+      "total_gmv": 342154.19
+    },
+    {
+      "full_date": "2019-10-24",
+      "day_name": "Thursday",
+      "total_events": 64714,
+      "active_users": 10193,
+      "total_purchases": 1222,
+      "total_gmv": 421223.69
+    },
+    {
+      "full_date": "2019-10-25",
+      "day_name": "Friday",
+      "total_events": 67206,
+      "active_users": 11164,
+      "total_purchases": 1119,
+      "total_gmv": 325233.35
+    },
+    {
+      "full_date": "2019-10-26",
+      "day_name": "Saturday",
+      "total_events": 66940,
+      "active_users": 10123,
+      "total_purchases": 1122,
+      "total_gmv": 319075.32
+    },
+    {
+      "full_date": "2019-10-27",
+      "day_name": "Sunday",
+      "total_events": 69613,
+      "active_users": 10131,
+      "total_purchases": 1235,
+      "total_gmv": 354464.44
+    },
+    {
+      "full_date": "2019-10-28",
+      "day_name": "Monday",
+      "total_events": 62085,
+      "active_users": 9727,
+      "total_purchases": 1011,
+      "total_gmv": 292593.89
+    },
+    {
+      "full_date": "2019-10-29",
+      "day_name": "Tuesday",
+      "total_events": 61475,
+      "active_users": 9849,
+      "total_purchases": 1021,
+      "total_gmv": 301390.15
+    },
+    {
+      "full_date": "2019-10-30",
+      "day_name": "Wednesday",
+      "total_events": 60059,
+      "active_users": 9717,
+      "total_purchases": 1035,
+      "total_gmv": 316622.38
+    },
+    {
+      "full_date": "2019-10-31",
+      "day_name": "Thursday",
+      "total_events": 60747,
+      "active_users": 9740,
+      "total_purchases": 956,
+      "total_gmv": 288235.07
+    }
+  ],
+  "forecast": [
+    {
+      "forecast_date": "2019-11-01",
+      "day_of_week": "Friday",
+      "predicted_traffic": 15927.0,
+      "pi_80_lower": 12117.0,
+      "pi_80_upper": 19738.0,
+      "pi_95_lower": 10093.0,
+      "pi_95_upper": 21762.0,
+      "recommended_action": "\ud83d\ude80 Prime campaign launch window (peak weekend engagement)"
+    },
+    {
+      "forecast_date": "2019-11-02",
+      "day_of_week": "Saturday",
+      "predicted_traffic": 15512.0,
+      "pi_80_lower": 11702.0,
+      "pi_80_upper": 19322.0,
+      "pi_95_lower": 9678.0,
+      "pi_95_upper": 21346.0,
+      "recommended_action": "\ud83d\ude80 Prime campaign launch window (peak weekend engagement)"
+    },
+    {
+      "forecast_date": "2019-11-03",
+      "day_of_week": "Sunday",
+      "predicted_traffic": 14542.0,
+      "pi_80_lower": 10732.0,
+      "pi_80_upper": 18353.0,
+      "pi_95_lower": 8708.0,
+      "pi_95_upper": 20377.0,
+      "recommended_action": "Standard baseline operations"
+    },
+    {
+      "forecast_date": "2019-11-04",
+      "day_of_week": "Monday",
+      "predicted_traffic": 13573.0,
+      "pi_80_lower": 9763.0,
+      "pi_80_upper": 17383.0,
+      "pi_95_lower": 7739.0,
+      "pi_95_upper": 19407.0,
+      "recommended_action": "Standard baseline operations"
+    },
+    {
+      "forecast_date": "2019-11-05",
+      "day_of_week": "Tuesday",
+      "predicted_traffic": 12742.0,
+      "pi_80_lower": 8932.0,
+      "pi_80_upper": 16552.0,
+      "pi_95_lower": 6908.0,
+      "pi_95_upper": 18576.0,
+      "recommended_action": "Standard baseline operations"
+    },
+    {
+      "forecast_date": "2019-11-06",
+      "day_of_week": "Wednesday",
+      "predicted_traffic": 13019.0,
+      "pi_80_lower": 9209.0,
+      "pi_80_upper": 16829.0,
+      "pi_95_lower": 7185.0,
+      "pi_95_upper": 18853.0,
+      "recommended_action": "Mid-week remarketing and cart abandonment push"
+    },
+    {
+      "forecast_date": "2019-11-07",
+      "day_of_week": "Thursday",
+      "predicted_traffic": 13434.0,
+      "pi_80_lower": 9624.0,
+      "pi_80_upper": 17245.0,
+      "pi_95_lower": 7600.0,
+      "pi_95_upper": 19269.0,
+      "recommended_action": "Mid-week remarketing and cart abandonment push"
+    }
+  ]
+}

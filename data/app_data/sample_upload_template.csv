@@ -1,0 +1,6 @@
+customer_code,recency_days,tenure_days,active_days,total_sessions,total_events,view_count,cart_count,purchase_count,total_spend,avg_purchase_price,max_price_interacted,n_unique_products,n_unique_cat1,n_unique_brands,weekend_event_ratio,cart_to_view_ratio,events_per_session
+CUST-1001,2,11,3,7,17,12,4,1,190.44,190.44,406.27,5,2,3,0.0,0.3333,2.43
+CUST-1002,0,19,14,42,265,265,0,0,0.0,0.0,2471.11,180,7,84,0.4377,0.0,6.31
+CUST-1003,10,16,5,10,180,177,1,2,382.81,191.41,1415.48,31,3,14,0.7444,0.0056,18.0
+CUST-1004,4,16,3,3,25,25,0,0,0.0,0.0,2555.28,20,2,14,0.0,0.0,8.33
+CUST-1005,6,10,3,4,42,40,2,0,0.0,0.0,215.71,19,2,9,0.0,0.05,10.5
