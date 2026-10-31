@@ -764,7 +764,7 @@ with tabs[3]:
 
         st.markdown("##### 2. Exact 95% Wilson Score Confidence Interval")
         st.latex(r"\text{CI}_{95\%} = \frac{p + \frac{z^2}{2n} \pm z \sqrt{\frac{p(1-p)}{n} + \frac{z^2}{4n^2}}}{1 + \frac{z^2}{n}}")
-        st.markdown(f"For {info_1['persona_name']}: $n={info_1['customer_count']:,}, p={info_1['conversion_rate_pct']}\% \implies$ **[{info_1['wilson_ci_lower_pct']}%, {info_1['wilson_ci_upper_pct']}%]**")
+        st.markdown(f"For {info_1['persona_name']}: $n={info_1['customer_count']:,}, p={info_1['conversion_rate_pct']}\\% \\implies$ **[{info_1['wilson_ci_lower_pct']}%, {info_1['wilson_ci_upper_pct']}%]**")
 
         st.markdown("##### 3. SVD Singular Values & PCA Variance Explained")
         st.latex(r"X_{\text{scaled}} = U \Sigma V^T \implies \lambda_i(C) = \frac{\sigma_i^2}{n - 1}")
