@@ -24,9 +24,11 @@ Thumbs.db
 # Big Data & Raw Datasets (Do NOT upload to GitHub - exceeds 100MB limits)
 data/*
 !data/README.md
+!data/app_data/**
 *.duckdb
 *.duckdb.wal
 *.parquet
+!data/app_data/*.parquet
 *.csv.gz
 .spark_tmp/
 metastore_db/

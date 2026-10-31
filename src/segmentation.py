@@ -3,7 +3,6 @@ src/segmentation.py
 ===================
 Linear Algebra decompositions, dimensionality reduction,
 and unsupervised customer behavioral clustering.
-Covers Syllabus Units 4 & 5 (Linear Algebra) and Unit 10 (Unsupervised Learning).
 """
 
 import numpy as np

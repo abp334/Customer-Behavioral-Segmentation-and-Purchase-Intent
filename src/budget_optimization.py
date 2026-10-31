@@ -2,7 +2,6 @@
 src/budget_optimization.py
 ==========================
 Constrained optimization using Lagrange Multipliers for marketing budget allocation.
-Directly aligns with Syllabus Unit 7 (Optimization & Lagrange Multipliers).
 Answers Business Question Q5: "What should the business do?"
 """
 

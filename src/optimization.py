@@ -6,7 +6,6 @@ First-principles implementation of Loss Functions and Gradient Descent algorithm
   - Stochastic Gradient Descent (SGD)
   - Mini-Batch Gradient Descent (MBGD)
 Cost-sensitive threshold tuning and expected value calculations.
-Directly aligns with Syllabus Unit 7 (Optimization) and Unit 8 (Supervised ML).
 """
 
 import numpy as np

@@ -45,14 +45,34 @@ Using the **REES46 eCommerce Behavior Dataset** (October 2019: **42,448,764 even
 ```
 DSC_GP/
 ├── app/
-│   └── main.py                               # Production 5-Tab Streamlit Application
-├── dashboard/
-│   ├── tableau_daily_metrics.csv             # BI Mart: 31-day daily aggregates
-│   ├── tableau_category_funnel.csv           # BI Mart: 11-category funnel drops
-│   ├── tableau_customer_segments.csv         # BI Mart: 10,000 scored customer profiles
-│   ├── tableau_lagrange_scenarios.csv        # BI Mart: 5 budget allocation scenarios
-│   └── README_TABLEAU.md                     # BI Field Specifications & Workbook Guide
+│   ├── main.py                               # Executive Streamlit Navigation Hub
+│   ├── components/
+│   │   └── styles.py                         # Bespoke SaaS CSS & Styling System
+│   └── views/
+│       ├── p1_home.py                        # P1: Executive Overview & Live Preview
+│       ├── p2_human_vs_model.py              # P2: Gamified Benchmark on Held-Out Test Clickstream
+│       ├── p3_customer_lookup.py             # P3: Single Customer Scorer & Batch CSV Engine
+│       ├── p4_campaign_builder.py            # P4: Lagrange Multiplier Budget & PDF Brief
+│       ├── p5_persona_explorer.py            # P5: 4-Persona Explorer & 2D PCA Map
+│       ├── p6_traffic_outlook.py             # P6: 7-Day SARIMA Forecast & Schedule
+│       └── p7_how_it_was_built.py            # P7: Lakehouse Pipeline, GD Replay & Syllabus
+├── src/
+│   ├── scoring_engine.py                     # Real-time Platt Calibration & Feature Attribution
+│   ├── campaign_optimizer.py                 # Constrained Lagrange KKT Multiplier Solver
+│   ├── pdf_generator.py                      # Pure-Python Executive Campaign Brief PDF Builder
+│   ├── segmentation.py                       # PCA & K-Means Unsupervised Pipeline
+│   ├── optimization.py                       # Gradient Descent Variants from Scratch
+│   ├── budget_optimization.py                # Analytical Lagrange Formulations
+│   ├── timeseries.py                         # SARIMA & Holt-Winters Forecasting
+│   └── stats.py                              # Chi-Square, Wilson CIs & ANOVA Tests
 ├── data/
+│   ├── app_data/                             # Certified Precomputed App Contracts
+│   │   ├── scored_customers_warehouse.parquet# 10,000 Pre-Scored Customer Profiles
+│   │   ├── test_user_timelines.json          # 20 Held-Out Real Test Clickstream Timelines
+│   │   ├── persona_profiles.json             # Centroids & 95% Wilson Confidence Intervals
+│   │   ├── forecast_7d.json                  # SARIMA Forecast & Prediction Interval Bands
+│   │   ├── model_coefficients.json           # Log-Odds Weights & Scaler Means
+│   │   └── sample_upload_template.csv        # Downloadable Template for Batch Scoring
 │   ├── bronze/events_oct/                    # Parquet: Deterministic 5% user sample
 │   ├── silver/events_oct/                    # Parquet: Cleaned, deduplicated, enriched
 │   └── gold/

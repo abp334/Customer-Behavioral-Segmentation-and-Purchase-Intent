@@ -4,7 +4,6 @@ src/timeseries.py
 Time series extraction, stationarity diagnostics (ADF & KPSS),
 autocorrelation analysis (ACF & PACF), and multi-model forecasting
 (Holt-Winters, ARIMA, Seasonal SARIMA).
-Directly aligns with Syllabus Unit 9 (Time Series Analysis & Forecasting).
 Answers Business Question Q4: "What will future traffic look like?"
 """
 

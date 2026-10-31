@@ -3,7 +3,6 @@ src/stats.py
 ============
 Statistical inference, hypothesis testing, confidence intervals,
 and distribution fitting utilities for eCommerce analytics.
-Aligns directly with Syllabus Unit 3 (Statistics & Probability).
 """
 
 import numpy as np
